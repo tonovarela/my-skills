@@ -1,0 +1,35 @@
+{
+  "skill_name": "pokemon-api",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Tell me about Pikachu, I want to know its basic stats and type",
+      "expected_output": "A table showing Pikachu's name, ID (25), height (0.4m), weight (6kg), type (Electric), and abilities (Static, Lightning Rod)",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "What's Pokemon number 1? Can you give me all the basic information?",
+      "expected_output": "A table displaying Bulbasaur's data: ID #1, height (0.7m), weight (6.9kg), types (Grass, Poison), and abilities",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I'm curious about Ditto. What can you tell me about it?",
+      "expected_output": "Table with Ditto's information: ID #132, height (0.3m), weight (4kg), type (Normal), ability (Imposter)",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Search for a Pokemon named Charizard and show me its info",
+      "expected_output": "Table displaying Charizard's basic stats: ID #6, height (1.7m), weight (90.5kg), types (Fire, Flying), and abilities",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "What happens if I search for a Pokemon that doesn't exist, like 'Fakemon123'?",
+      "expected_output": "Clear error message indicating the Pokemon was not found and suggesting to check spelling or ID",
+      "files": []
+    }
+  ]
+}

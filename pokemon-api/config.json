@@ -1,0 +1,47 @@
+{
+  "name": "pokemon-api",
+  "version": "1.0.0",
+  "description": "Pokémon API lookup skill for fetching basic Pokémon information from PokéAPI",
+  "author": "OpenCode User",
+  "triggers": [
+    "pokemon",
+    "pokémon",
+    "pokédex",
+    "pokedex",
+    "pikachu",
+    "charizard",
+    "bulbasaur",
+    "ditto",
+    "lapras",
+    "blastoise",
+    "venusaur",
+    "raichu",
+    "arcanine",
+    "gyarados",
+    "pokemon name",
+    "pokemon id",
+    "pokemon number",
+    "tell me about",
+    "info about",
+    "what's pokemon",
+    "compare pokemon"
+  ],
+  "activation": "hybrid",
+  "scope": "project",
+  "dependencies": [
+    "requests"
+  ],
+  "api_base": "https://pokeapi.co/api/v2/pokemon",
+  "rate_limit": "100 requests/minute",
+  "data_fields": [
+    "name",
+    "id",
+    "height",
+    "weight",
+    "types",
+    "abilities"
+  ],
+  "output_format": "markdown_table",
+  "cache_enabled": false,
+  "error_handling": "user_friendly"
+}
